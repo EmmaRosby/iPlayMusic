@@ -3,4 +3,5 @@
 @use "./base/typography.scss";
 
 // Pages
-@use "./pages/index.scss";
+@use "./pages/default.scss";
+@use "./pages/playlist-page.scss";
