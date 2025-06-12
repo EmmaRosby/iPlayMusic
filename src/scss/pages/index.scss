@@ -1,0 +1,10 @@
+@use '../base/root';
+@use '../base/mixins';
+
+.index{
+    &__title{
+        font-size: 2.5rem;
+        margin-inline: 2rem; 
+        @include mixins.font-gradient;
+    }
+}
