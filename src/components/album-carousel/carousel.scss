@@ -1,7 +1,7 @@
 .playlist-carousel{
     display: flex;
     overflow-x: scroll;
-    scroll-snap-type: center; // dont work
+    scroll-snap-type: x mandatory;
 
     &__card{
         display: flex;
@@ -9,14 +9,14 @@
         align-items: center;
         width: 8rem;
         margin-inline: 10vw;
-        scroll-snap-align: center;// dont work
+        scroll-snap-align: center;
 
 
         &__cover{
             width: 8rem;
             height: 8rem;
             border-radius: 1rem;
-
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
         &__title{
             font-size: 1.6rem;

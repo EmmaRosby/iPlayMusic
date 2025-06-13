@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "name": "Alternative",
+    "subGenres": [
+      {
+        "id": 101,
+        "name": "Indie Rock"
+      },
+      {
+        "id": 102,
+        "name": "Post-Punk"
+      },
+      {
+        "id": 103,
+        "name": "Grunge"
+      },
+      {
+        "id": 104,
+        "name": "Shoegaze"
+      },
+      {
+        "id": 105,
+        "name": "Lo-Fi"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Blues",
+    "subGenres": [
+      {
+        "id": 201,
+        "name": "Delta Blues"
+      },
+      {
+        "id": 202,
+        "name": "Chicago Blues"
+      },
+      {
+        "id": 203,
+        "name": "Jump Blues"
+      },
+      {
+        "id": 204,
+        "name": "Electric Blues"
+      },
+      {
+        "id": 205,
+        "name": "Contemporary Blues"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Classical",
+    "subGenres": [
+      {
+        "id": 301,
+        "name": "Baroque"
+      },
+      {
+        "id": 302,
+        "name": "Romantic"
+      },
+      {
+        "id": 303,
+        "name": "Symphony"
+      },
+      {
+        "id": 304,
+        "name": "Opera"
+      },
+      {
+        "id": 305,
+        "name": "Contemporary Classical"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Country",
+    "subGenres": [
+      {
+        "id": 401,
+        "name": "Traditional Country"
+      },
+      {
+        "id": 402,
+        "name": "Outlaw Country"
+      },
+      {
+        "id": 403,
+        "name": "Country Pop"
+      },
+      {
+        "id": 404,
+        "name": "Bluegrass"
+      },
+      {
+        "id": 405,
+        "name": "Alt-Country"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Dance",
+    "subGenres": [
+      {
+        "id": 501,
+        "name": "House"
+      },
+      {
+        "id": 502,
+        "name": "Techno"
+      },
+      {
+        "id": 503,
+        "name": "Disco"
+      },
+      {
+        "id": 504,
+        "name": "Trance"
+      },
+      {
+        "id": 505,
+        "name": "Dubstep"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Electronic",
+    "subGenres": [
+      {
+        "id": 601,
+        "name": "Ambient"
+      },
+      {
+        "id": 602,
+        "name": "IDM"
+      },
+      {
+        "id": 603,
+        "name": "Synthwave"
+      },
+      {
+        "id": 604,
+        "name": "Breakbeat"
+      },
+      {
+        "id": 605,
+        "name": "Chillout"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Fitness & Workout",
+    "subGenres": [
+      {
+        "id": 701,
+        "name": "Cardio"
+      },
+      {
+        "id": 702,
+        "name": "High Intensity"
+      },
+      {
+        "id": 703,
+        "name": "Yoga & Meditation"
+      },
+      {
+        "id": 704,
+        "name": "Running"
+      },
+      {
+        "id": 705,
+        "name": "Strength Training"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Hip-Hop/Rap",
+    "subGenres": [
+      {
+        "id": 801,
+        "name": "East Coast"
+      },
+      {
+        "id": 802,
+        "name": "West Coast"
+      },
+      {
+        "id": 803,
+        "name": "Trap"
+      },
+      {
+        "id": 804,
+        "name": "Conscious"
+      },
+      {
+        "id": 805,
+        "name": "Drill"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Industrial",
+    "subGenres": [
+      {
+        "id": 901,
+        "name": "Industrial Rock"
+      },
+      {
+        "id": 902,
+        "name": "Industrial Metal"
+      },
+      {
+        "id": 903,
+        "name": "EBM"
+      },
+      {
+        "id": 904,
+        "name": "Power Noise"
+      },
+      {
+        "id": 905,
+        "name": "Darkwave"
+      }
+    ]
+  }
+]

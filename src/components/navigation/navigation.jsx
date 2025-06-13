@@ -15,7 +15,7 @@ function Navigation() {
                         <li><Link to='/playlist-page'><MdLibraryMusic className="navigation__icon" /></Link></li>
                         <li><Link to='/'><GiSoundWaves className="navigation__icon-center" /></Link></li>
                         <li><Link to='/'><FaCircleHalfStroke className="navigation__icon" /></Link></li>
-                        <li><Link to='/'><BiSolidCategory className="navigation__icon" /></Link></li>
+                        <li><Link to='/categories-page'><BiSolidCategory className="navigation__icon" /></Link></li>
                     </ul>
                 </nav>
             </footer>
