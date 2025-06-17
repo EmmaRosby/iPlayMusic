@@ -4,7 +4,8 @@
     "title": "Evermore",
     "artist": "Taylor Swift",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["Folk", "Alternative", "Indie"],
     "songs": [
       {
         "id": 101,
@@ -31,7 +32,8 @@
     "title": "After Hours",
     "artist": "The Weeknd",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["R&B", "Pop", "Synth-pop"],
     "songs": [
       {
         "id": 201,
@@ -58,7 +60,8 @@
     "title": "Future Nostalgia",
     "artist": "Dua Lipa",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["Pop", "Dance", "Disco"],
     "songs": [
       {
         "id": 301,
@@ -85,7 +88,8 @@
     "title": "Harry's House",
     "artist": "Harry Styles",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["Pop", "Rock", "Soft Rock"],
     "songs": [
       {
         "id": 401,
@@ -112,7 +116,8 @@
     "title": "Renaissance",
     "artist": "Beyoncé",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["Dance", "House", "R&B"],
     "songs": [
       {
         "id": 501,
@@ -139,7 +144,8 @@
     "title": "Happier Than Ever",
     "artist": "Billie Eilish",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["Alternative", "Pop", "Electronic"],
     "songs": [
       {
         "id": 601,
@@ -166,7 +172,8 @@
     "title": "SOUR",
     "artist": "Olivia Rodrigo",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["Pop", "Alternative", "Teen Pop"],
     "songs": [
       {
         "id": 701,
@@ -193,7 +200,8 @@
     "title": "Planet Her",
     "artist": "Doja Cat",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["Pop", "R&B", "Hip-Hop"],
     "songs": [
       {
         "id": 801,
@@ -220,7 +228,8 @@
     "title": "UTOPIA",
     "artist": "Travis Scott",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["Hip-Hop", "Rap", "Trap"],
     "songs": [
       {
         "id": 901,
@@ -247,7 +256,8 @@
     "title": "Un Verano Sin Ti",
     "artist": "Bad Bunny",
     "numberOfSongs": 3,
-    "cover": "placeholder.jpg",
+    "cover": "/placeholder.jpg",
+    "genres": ["Latin", "Reggaeton", "Urban"],
     "songs": [
       {
         "id": 1001,

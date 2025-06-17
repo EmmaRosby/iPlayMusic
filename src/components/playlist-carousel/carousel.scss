@@ -57,7 +57,6 @@
                 font-size: 2rem;
                 text-align: center;
                 margin-top: 0.5rem;
-                color: var(--text-color);
 
             }
         }
@@ -96,17 +95,14 @@
         &__title {
             font-size: 1.2rem;
             font-weight: 800;
-            color: root.$lightmode-font;
+
         }
         &__artist {
              font-size: 1.2rem;
-            color: root.$lightmode-font
+          
         }
     }
-    &__song-time {
 
-        color: root.$lightmode-font;
-    }
     
 
 }

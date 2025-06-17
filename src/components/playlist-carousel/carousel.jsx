@@ -1,20 +1,20 @@
 import { useEffect, useState, useRef } from "react";
-import palylistData from '/json/playlist.json';
+import playlistData from '/json/playlist.json';
 import './carousel.scss';
 import { FaCirclePlay } from "react-icons/fa6";
 
 function Carousel() {
-    const [palylist, setPalylist] = useState([]);
+    const [playlist, setPlaylist] = useState([]);
     const [activeCardId, setActiveCardId] = useState(null);
     const carouselRef = useRef(null);
 
     useEffect(() => {
-        // Simulating an API call to fetch palylist data
-        setPalylist(palylistData);
+        // Simulating an API call to fetch playlist data
+        setPlaylist(playlistData);
     }, []);
 
     useEffect(() => {
-        if (palylist.length === 0) return;
+        if (playlist.length === 0) return;
 
         const observer = new IntersectionObserver(
             (entries) => {
@@ -40,7 +40,7 @@ function Carousel() {
         return () => {
             cards.forEach(card => observer.unobserve(card));
         };
-    }, [palylist]);
+    }, [playlist]);
 
     // converting song.playtime to minutes and seconds format
     const formatPlaytime = (playtime) => {
@@ -53,10 +53,10 @@ function Carousel() {
     return (
         <>
             <div className="playlist-carousel" ref={carouselRef}>
-                {palylist.length === 0 ? (
-                    <p>Loading palylist...</p>
+                {playlist.length === 0 ? (
+                    <p>Loading playlist...</p>
                 ) : (
-                    palylist.map((playlist) => (
+                    playlist.map((playlist) => (
                         <div
                             key={playlist.id}
                             data-id={playlist.id}
@@ -71,7 +71,7 @@ function Carousel() {
             {activeCardId && (
                 <div className="active-card">
                     <ul className="active-card__songs">
-                        {palylist.find(p => p.id === activeCardId)?.songs.map((song) => (
+                        {playlist.find(p => p.id === activeCardId)?.songs.map((song) => (
                             <li key={song.id} className="active-card__song">
                                 <div className="active-card__song-main">
                                     <FaCirclePlay className="active-card__play"/>

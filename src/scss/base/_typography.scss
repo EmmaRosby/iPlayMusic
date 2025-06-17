@@ -3,29 +3,40 @@
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 48pt;
+    text-transform: capitalize;
     
 }
 
 h2{
     font-family: 'Poppins', sans-serif;
     font-size: 36pt;
+    text-transform: capitalize;
 }
 h3{
     font-family: 'Poppins', sans-serif;
     font-size: 32pt;
+    text-transform: capitalize;
 }
 h4{
     font-family: 'Poppins', sans-serif;
     font-size: 24pt;
+    text-transform: capitalize;
 }
 h5{
     font-family: 'Poppins', sans-serif;
     font-size: 20pt;
+    text-transform: capitalize;
 }
 h6{
     font-family: 'Poppins', sans-serif;
     font-size: 15pt;
+    text-transform: capitalize;
 }
 p, li, a, span, button, input, textarea {
     font-family: 'Urbanist', sans-serif;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }

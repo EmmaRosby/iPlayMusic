@@ -1,6 +1,6 @@
-import AlbumCarousel from "../components/album-carousel/album-carousel";
 import HeaderNav from "../components/header-nav/header-nav";
 import Navigation from "../components/navigation/navigation";
+import Carousel from "../components/playlist-carousel/carousel";
 
 function PlaylistPage() {
     return (  
@@ -16,7 +16,7 @@ function PlaylistPage() {
                 </div>
             <main className="playlist-page">
                 <h2 className="title title-white">Playlists</h2>
-                <AlbumCarousel />
+                <Carousel />
             </main>
             
             <Navigation />

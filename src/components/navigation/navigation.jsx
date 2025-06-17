@@ -1,9 +1,9 @@
 import { BiSolidAlbum, BiSolidCategory } from "react-icons/bi";
-import { FaCircleHalfStroke } from "react-icons/fa6";
 import { GiSoundWaves } from "react-icons/gi";
 import { MdLibraryMusic } from "react-icons/md";
 import { NavLink } from "react-router";
 import './navigation.scss';
+import Darkmode from "../darkmode/darkmode";
 
 function Navigation() {
     return (
@@ -13,7 +13,7 @@ function Navigation() {
                     <ul className="navigation__list">
                         <li>
                             <NavLink 
-                                to='/album-page' className={({ isActive, isPending}) => 
+                                to='/all-album-page' className={({ isActive, isPending}) => 
                                     isPending ? "pending" : isActive ? "active" : "" }> 
                                 <BiSolidAlbum className="navigation__icon" />
                             </NavLink>
@@ -33,11 +33,7 @@ function Navigation() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink 
-                                to='/darkmode'className={({ isActive, isPending}) => 
-                                    isPending ? "pending" : isActive ? "active" : "" }>
-                                <FaCircleHalfStroke className="navigation__icon" />
-                            </NavLink>
+                           <Darkmode />
                         </li>
                         <li>
                             <NavLink 

@@ -9,7 +9,6 @@ function CategoriesPage() {
             title="Categories"
             navigateReturn={false}
             search={true}
-            color={"#341931"}
         />
         <main>
             <h2 className="title">Categories</h2>

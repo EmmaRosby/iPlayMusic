@@ -9,7 +9,6 @@ function Index() {
                 title="Featured"
                 navigateReturn={false}
                 search={true}
-                color={"#341931"}
             />
             <main className="index">
                 <h1 className="title">Featured</h1>

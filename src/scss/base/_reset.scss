@@ -10,8 +10,8 @@
 }
 
 body{
-    position: relative;
     overflow-x: hidden;
+    transition: 300ms ease-in-out;
 }
 
 main{
@@ -27,5 +27,12 @@ main{
 
     &-white{
         color: root.$font-white;
+    }
+}
+
+html{
+    color: root.$lightmode-font;
+    &:has(.dark-mode){
+        color: root.$darkmode-font;
     }
 }

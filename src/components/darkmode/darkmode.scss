@@ -1,0 +1,36 @@
+@use "../../scss/base/root";
+
+.dark-mode{
+    transition: 300ms ease-in-out;
+
+    background-color: root.$darkmode-bg-purple;
+    color: root.$darkmode-font;
+    
+    a.active{
+        .navigation__icon{
+            fill: root.$accent-white;
+        }
+        .navigation__icon-center{
+            fill: url(#gradient);
+            background: root.$accent-white;
+        }
+        
+    }
+    a .navigation__icon-center{
+        fill: root.$accent-darkpurple;
+        background: root.$gradient-bg;
+        
+    }
+
+    .darkmode-icon{
+       transform: rotate(180deg);
+       transition: transform 0.3s ease-in-out;
+    }
+    
+    footer{
+        background-color: root.$accent-darkpurple;
+    }
+}
+.darkmode-icon{    
+   transition: transform 0.3s ease-in-out;
+}
