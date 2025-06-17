@@ -2,7 +2,7 @@ import { BiSolidAlbum, BiSolidCategory } from "react-icons/bi";
 import { FaCircleHalfStroke } from "react-icons/fa6";
 import { GiSoundWaves } from "react-icons/gi";
 import { MdLibraryMusic } from "react-icons/md";
-import { Link } from "react-router";
+import { NavLink } from "react-router";
 import './navigation.scss';
 
 function Navigation() {
@@ -11,11 +11,41 @@ function Navigation() {
             <footer>
                 <nav className="navigation">
                     <ul className="navigation__list">
-                        <li><Link to='/'><BiSolidAlbum className="navigation__icon" /></Link></li>
-                        <li><Link to='/playlist-page'><MdLibraryMusic className="navigation__icon" /></Link></li>
-                        <li><Link to='/'><GiSoundWaves className="navigation__icon-center" /></Link></li>
-                        <li><Link to='/'><FaCircleHalfStroke className="navigation__icon" /></Link></li>
-                        <li><Link to='/categories-page'><BiSolidCategory className="navigation__icon" /></Link></li>
+                        <li>
+                            <NavLink 
+                                to='/album-page' className={({ isActive, isPending}) => 
+                                    isPending ? "pending" : isActive ? "active" : "" }> 
+                                <BiSolidAlbum className="navigation__icon" />
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to='/playlist-page'className={({ isActive, isPending}) => 
+                                    isPending ? "pending" : isActive ? "active" : "" }>
+                                <MdLibraryMusic className="navigation__icon" />
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to='/'className={({ isActive, isPending}) => 
+                                    isPending ? "pending" : isActive ? "active" : "" }>
+                                <GiSoundWaves className="navigation__icon-center" />
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to='/darkmode'className={({ isActive, isPending}) => 
+                                    isPending ? "pending" : isActive ? "active" : "" }>
+                                <FaCircleHalfStroke className="navigation__icon" />
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink 
+                                to='/categories-page'className={({ isActive, isPending}) => 
+                                    isPending ? "pending" : isActive ? "active" : "" }>
+                                <BiSolidCategory className="navigation__icon" />
+                            </NavLink>
+                        </li>
                     </ul>
                 </nav>
             </footer>

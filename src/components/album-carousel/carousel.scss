@@ -1,28 +1,112 @@
-.playlist-carousel{
+@use '../../scss/base/root';
+
+.playlist-carousel {
     display: flex;
     overflow-x: scroll;
+    scrollbar-width: none;
+    /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none;
+    /* Hide scrollbar for Internet Explorer and Edge */
     scroll-snap-type: x mandatory;
+    padding: 1rem 0;
+    width: 100vw;
 
-    &__card{
+
+    &__card {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 8rem;
         margin-inline: 10vw;
         scroll-snap-align: center;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+
+        &:first-child {
+            margin-left: 50%;
+            transform: translateX(-25%);
+        }
+
+        &:last-child {
+            margin-right: 50%;
+            transform: translateX(25%);
+        }
 
 
-        &__cover{
+        &__cover {
             width: 8rem;
             height: 8rem;
             border-radius: 1rem;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            transition: box-shadow 0.3s ease;
         }
-        &__title{
-            font-size: 1.6rem;
-            text-align: center;
-            margin-top: 0.5rem;
-            color: var(--text-color);
+
+        &__title {
+            display: none;
+        }
+
+        // Active card styling
+        &.active {
+            transform: scale(1.1);
+
+            .playlist-carousel__card__cover {
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            }
+
+            .playlist-carousel__card__title {
+                display: flex;
+                font-size: 2rem;
+                text-align: center;
+                margin-top: 0.5rem;
+                color: var(--text-color);
+
+            }
         }
     }
+}
+
+.active-card {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+    &__songs {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 2rem;
+        gap: 1rem;
+
+    }
+
+    &__song {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    &__song-main{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    &__play {
+        font-size: 2rem;
+        fill: url(#gradient);
+    }
+    &__details {
+    
+        &__title {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: root.$lightmode-font;
+        }
+        &__artist {
+             font-size: 1.2rem;
+            color: root.$lightmode-font
+        }
+    }
+    &__song-time {
+
+        color: root.$lightmode-font;
+    }
+    
+
 }

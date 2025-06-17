@@ -22,11 +22,18 @@ $accent-colors: (
         gap: 1rem;
 
         &__details {
-            @each $index, $color in $accent-colors {
-                &:nth-child(#{$index}) &__genre {
-                    background-color: $color;
+           @for $i from 1 through 100 {
+                &:nth-child(#{$i}) {
+                    .filter__container__details__genre {
+                        // Calculate if index is above 9, if so, start again from 1.
+                        // Or however much the leftover is,
+                        $index: ($i - 1) % 9 + 1;
+                        // Give the background-color that matches the index.
+                        background-color: map-get($accent-colors, $index);
+                    }
                 }
             }
+
 
             &__genre {
                 display: flex;

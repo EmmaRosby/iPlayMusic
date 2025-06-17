@@ -32,3 +32,13 @@ footer{
         background: root.$gradient-bg;
     }
 }
+
+a.active{
+    .navigation__icon{
+        fill: root.$accent-darkpurple;
+    }
+    .navigation__icon-center{
+        fill: url(#gradient);
+        background: root.$accent-darkpurple;
+    }
+}

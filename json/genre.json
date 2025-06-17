@@ -232,5 +232,31 @@
         "name": "Darkwave"
       }
     ]
+  },
+  {
+    "id": 10,
+    "name": "tester",
+    "subGenres": [
+      {
+        "id": 1001,
+        "name": "Industrial Rock"
+      },
+      {
+        "id": 1002,
+        "name": "Industrial Metal"
+      },
+      {
+        "id": 1003,
+        "name": "EBM"
+      },
+      {
+        "id": 1004,
+        "name": "Power Noise"
+      },
+      {
+        "id": 1005,
+        "name": "Darkwave"
+      }
+    ]
   }
 ]

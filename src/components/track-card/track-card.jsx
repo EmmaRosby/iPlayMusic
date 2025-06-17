@@ -18,6 +18,7 @@ function TrackCard() {
                 ) : (
                     albums.map((album) => (
                         <div key={album.id} className="track-card">
+                            <img src={album.cover} alt={album.title} className="track-card__cover" />
                             <div className="track-card__info">
                                 <h2 className="track-card__info__title">{album.title}</h2>
                                 <p className="track-card__info__artist">{album.artist}</p>

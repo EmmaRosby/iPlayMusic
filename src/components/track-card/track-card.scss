@@ -6,12 +6,12 @@
     height: 50vh;
     position: relative;;
     border-radius: 1rem;
-
-    background-image: url('../public/placeholder.jpg');
-    background-size: cover;
-    background-position: center;
     
-
+    &__cover {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;   
+    }
     //overlay
     &::before {
         content: '';
@@ -20,7 +20,8 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(0deg, root.$shadow-light, root.$shadow-none);
+        background-image: linear-gradient(0deg, root.$shadow-hard, root.$shadow-none);
+        border-radius: 1rem;
     }
 
     &__info {
