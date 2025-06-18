@@ -9,9 +9,11 @@ $darkmode-font: white;
 $font-white: white;
 $font-gradient: linear-gradient(100deg, #EE0979 0%, #FF6A00 60%);
 $font-pink: #D70060;
+$font-brightpink: #FF1168;
 
 
 // Accent colors
+$accent-brightpink: #FF1168;
 $accent-pink: #D70060;
 $accent-orange: #F18D05;
 $accent-darkorange: #E54028; 
@@ -30,7 +32,6 @@ $lightmode-btn-selected: #341931;
 $darkmode-btn-selected: white;
 
 // Shadow colors
-$shadow-none: #00000000;
 $shadow-light: #00000025;
 $shadow-medium: #00000040;
 $shadow-hard: #00000080;

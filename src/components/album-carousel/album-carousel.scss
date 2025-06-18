@@ -9,11 +9,12 @@
     &__headline{
         font-size: 1.1rem;
         color: var(--text-color);
+        margin-block: 1rem;
     }
     &__view-all{
         border: none;
         background: none;
-        color: root.$font-pink;
+        color: root.$font-brightpink;
         font-size: 1.1rem;
     }
 }
@@ -24,6 +25,8 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
     scroll-snap-type: x mandatory;
+    gap: 2rem;
+    padding: 1rem 2rem;
 }
 .album-card{
     height: 30vh;

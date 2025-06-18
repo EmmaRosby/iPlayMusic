@@ -41,17 +41,21 @@ function AlbumPage() {
                     <>
                         <img src={album.cover} alt={album.title} className="album__cover"/>
                         <div className="album__details">
-                            <h2 className="album__details__title">{album.title}</h2>
-                            <p className="album__details__amount">{album.numberOfSongs} songs</p>
-                            <p>genres hastags</p>
-                            <ul className="album__details__genres">
-                                {album.genres?.map((genre, index) => (
-                                    <li key={index} className="album__details__genre">#{genre}</li>
-                                ))}
-                            </ul>
+                            <div>
+                                <h2 className="album__details__title">{album.title}</h2>
+                                <p className="album__details__amount">{album.numberOfSongs} songs</p>
+                            </div>
+                            <div>
+                                <p className="album__details__p">genres hastags</p>
+                                <ul className="album__details__genres">
+                                    {album.genres?.map((genre, index) => (
+                                        <li key={index} className="album__details__genres__genre">#{genre}</li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                         <div className="active-card">
-                            <p>All songs</p>
+                            <p className="all-songs-p">All songs</p>
                             <ul className="active-card__songs">
                                 {album.songs?.map((song) => (
                                     <li key={song.id} className="active-card__song">

@@ -20,7 +20,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: linear-gradient(0deg, root.$shadow-hard, root.$shadow-none);
+        background-image: linear-gradient(0deg, root.$shadow-hard, transparent);
         border-radius: 1rem;
     }
 
