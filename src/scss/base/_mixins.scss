@@ -1,0 +1,8 @@
+@use './root';
+
+@mixin font-gradient() {
+    background: root.$font-gradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

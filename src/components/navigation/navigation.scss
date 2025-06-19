@@ -1,0 +1,44 @@
+@use "../../scss/base/root";
+
+
+footer{
+    background-color: root.$accent-white;
+    box-shadow: 0px -10px 6px root.$shadow-light;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding-inline: 2rem;
+}
+
+.navigation{
+    padding-block: .5rem;
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        
+    }
+    &__icon{
+        font-size: 1.7rem;
+        fill: url(#gradient);
+        
+    }
+    &__icon-center{
+        color: root.$accent-white;
+        border-radius: 2.5rem;
+        font-size: 3rem;
+        padding: .2rem;
+        background: root.$gradient-bg;
+    }
+}
+
+a.active{
+    .navigation__icon{
+        fill: root.$accent-darkpurple;
+    }
+    .navigation__icon-center{
+        fill: url(#gradient);
+        background: root.$accent-darkpurple;
+    }
+}

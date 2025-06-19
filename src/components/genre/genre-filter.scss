@@ -1,0 +1,67 @@
+@use '../../scss/base/root';
+
+$accent-colors: (
+    1: root.$accent-pink,
+    2: root.$accent-darkorange,
+    3: root.$accent-orange,
+    4: root.$accent-yellow,
+    5: root.$accent-green,
+    6: root.$accent-darkgreen,
+    7: root.$accent-lightblue,
+    8: root.$accent-blue,
+    9: root.$accent-darkblue,
+);
+
+.filter {
+    margin-inline: 2rem;
+    margin-top: 1rem;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        &__details {
+           @for $i from 1 through 100 {
+                &:nth-child(#{$i}) {
+                    .filter__container__details__genre {
+                        // Calculate if index is above 9, if so, start again from 1.
+                        // Or however much the leftover is,
+                        $index: ($i - 1) % 9 + 1;
+                        // Give the background-color that matches the index.
+                        background-color: map-get($accent-colors, $index);
+                    }
+                }
+            }
+
+
+            &__genre {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                list-style: none;
+                padding: 1rem;
+                border-radius: 0.5rem;
+                color: root.$font-white;
+                font-weight: 600;
+            }
+
+            &__subgenres {
+                display: flex;
+                flex-direction: column;
+                gap: 0.7rem;
+                padding: 0.5rem;
+                list-style: none;
+
+                &__item a {
+                    display: flex;
+                    justify-content: space-between;
+                    text-decoration: none;
+                    color: root.$lightmode-font;
+
+                }
+            }
+        }
+
+    }
+}

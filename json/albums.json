@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "title": "Evermore",
+    "artist": "Taylor Swift",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["Folk", "Alternative", "Indie"],
+    "songs": [
+      {
+        "id": 101,
+        "songTitle": "Willow",
+        "artist": "Taylor Swift",
+        "playtime": 215
+      },
+      {
+        "id": 102,
+        "songTitle": "Champagne Problems",
+        "artist": "Taylor Swift",
+        "playtime": 242
+      },
+      {
+        "id": 103,
+        "songTitle": "Gold Rush",
+        "artist": "Taylor Swift",
+        "playtime": 185
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "After Hours",
+    "artist": "The Weeknd",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["R&B", "Pop", "Synth-pop"],
+    "songs": [
+      {
+        "id": 201,
+        "songTitle": "Blinding Lights",
+        "artist": "The Weeknd",
+        "playtime": 200
+      },
+      {
+        "id": 202,
+        "songTitle": "Save Your Tears",
+        "artist": "The Weeknd",
+        "playtime": 215
+      },
+      {
+        "id": 203,
+        "songTitle": "In Your Eyes",
+        "artist": "The Weeknd",
+        "playtime": 237
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Future Nostalgia",
+    "artist": "Dua Lipa",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["Pop", "Dance", "Disco"],
+    "songs": [
+      {
+        "id": 301,
+        "songTitle": "Don't Start Now",
+        "artist": "Dua Lipa",
+        "playtime": 183
+      },
+      {
+        "id": 302,
+        "songTitle": "Physical",
+        "artist": "Dua Lipa",
+        "playtime": 193
+      },
+      {
+        "id": 303,
+        "songTitle": "Levitating",
+        "artist": "Dua Lipa",
+        "playtime": 203
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Harry's House",
+    "artist": "Harry Styles",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["Pop", "Rock", "Soft Rock"],
+    "songs": [
+      {
+        "id": 401,
+        "songTitle": "As It Was",
+        "artist": "Harry Styles",
+        "playtime": 167
+      },
+      {
+        "id": 402,
+        "songTitle": "Late Night Talking",
+        "artist": "Harry Styles",
+        "playtime": 178
+      },
+      {
+        "id": 403,
+        "songTitle": "Music For a Sushi Restaurant",
+        "artist": "Harry Styles",
+        "playtime": 192
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Renaissance",
+    "artist": "Beyoncé",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["Dance", "House", "R&B"],
+    "songs": [
+      {
+        "id": 501,
+        "songTitle": "Break My Soul",
+        "artist": "Beyoncé",
+        "playtime": 278
+      },
+      {
+        "id": 502,
+        "songTitle": "Alien Superstar",
+        "artist": "Beyoncé",
+        "playtime": 226
+      },
+      {
+        "id": 503,
+        "songTitle": "Cuff It",
+        "artist": "Beyoncé",
+        "playtime": 225
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Happier Than Ever",
+    "artist": "Billie Eilish",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["Alternative", "Pop", "Electronic"],
+    "songs": [
+      {
+        "id": 601,
+        "songTitle": "Happier Than Ever",
+        "artist": "Billie Eilish",
+        "playtime": 298
+      },
+      {
+        "id": 602,
+        "songTitle": "NDA",
+        "artist": "Billie Eilish",
+        "playtime": 195
+      },
+      {
+        "id": 603,
+        "songTitle": "Therefore I Am",
+        "artist": "Billie Eilish",
+        "playtime": 174
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "SOUR",
+    "artist": "Olivia Rodrigo",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["Pop", "Alternative", "Teen Pop"],
+    "songs": [
+      {
+        "id": 701,
+        "songTitle": "drivers license",
+        "artist": "Olivia Rodrigo",
+        "playtime": 242
+      },
+      {
+        "id": 702,
+        "songTitle": "good 4 u",
+        "artist": "Olivia Rodrigo",
+        "playtime": 178
+      },
+      {
+        "id": 703,
+        "songTitle": "deja vu",
+        "artist": "Olivia Rodrigo",
+        "playtime": 215
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Planet Her",
+    "artist": "Doja Cat",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["Pop", "R&B", "Hip-Hop"],
+    "songs": [
+      {
+        "id": 801,
+        "songTitle": "Kiss Me More",
+        "artist": "Doja Cat ft. SZA",
+        "playtime": 234
+      },
+      {
+        "id": 802,
+        "songTitle": "Need to Know",
+        "artist": "Doja Cat",
+        "playtime": 210
+      },
+      {
+        "id": 803,
+        "songTitle": "Woman",
+        "artist": "Doja Cat",
+        "playtime": 172
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "UTOPIA",
+    "artist": "Travis Scott",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["Hip-Hop", "Rap", "Trap"],
+    "songs": [
+      {
+        "id": 901,
+        "songTitle": "FE!N",
+        "artist": "Travis Scott ft. Playboi Carti",
+        "playtime": 203
+      },
+      {
+        "id": 902,
+        "songTitle": "MELTDOWN",
+        "artist": "Travis Scott ft. Drake",
+        "playtime": 218
+      },
+      {
+        "id": 903,
+        "songTitle": "TELEKINESIS",
+        "artist": "Travis Scott ft. SZA & Future",
+        "playtime": 287
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Un Verano Sin Ti",
+    "artist": "Bad Bunny",
+    "numberOfSongs": 3,
+    "cover": "/placeholder.jpg",
+    "genres": ["Latin", "Reggaeton", "Urban"],
+    "songs": [
+      {
+        "id": 1001,
+        "songTitle": "Tití Me Preguntó",
+        "artist": "Bad Bunny",
+        "playtime": 241
+      },
+      {
+        "id": 1002,
+        "songTitle": "Me Porto Bonito",
+        "artist": "Bad Bunny ft. Chencho Corleone",
+        "playtime": 178
+      },
+      {
+        "id": 1003,
+        "songTitle": "Efecto",
+        "artist": "Bad Bunny",
+        "playtime": 223
+      }
+    ]
+  }
+]

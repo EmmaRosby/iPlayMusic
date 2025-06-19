@@ -1,0 +1,38 @@
+@use './root';
+@use './mixins';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    overflow-x: hidden;
+    transition: 300ms ease-in-out;
+}
+
+main{
+    margin-bottom: 4rem;
+}
+
+
+.title{
+    font-size: 2.5rem;
+    margin-inline: 2rem; 
+    font-weight: 600;
+    @include mixins.font-gradient;
+
+    &-white{
+        color: root.$font-white;
+    }
+}
+
+html{
+    color: root.$lightmode-font;
+    &:has(.dark-mode){
+        color: root.$darkmode-font;
+    }
+}

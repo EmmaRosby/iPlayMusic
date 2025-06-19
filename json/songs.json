@@ -1,0 +1,362 @@
+[
+  {
+    "id": 101,
+    "title": "Willow",
+    "artist": "Taylor Swift",
+    "playtime": 215,
+    "album": "Evermore",
+    "albumId": 1,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 102,
+    "title": "Champagne Problems",
+    "artist": "Taylor Swift",
+    "playtime": 242,
+    "album": "Evermore",
+    "albumId": 1,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 103,
+    "title": "Gold Rush",
+    "artist": "Taylor Swift",
+    "playtime": 185,
+    "album": "Evermore",
+    "albumId": 1,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 201,
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "playtime": 200,
+    "album": "After Hours",
+    "albumId": 2,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 202,
+    "title": "Save Your Tears",
+    "artist": "The Weeknd",
+    "playtime": 215,
+    "album": "After Hours",
+    "albumId": 2,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 203,
+    "title": "In Your Eyes",
+    "artist": "The Weeknd",
+    "playtime": 237,
+    "album": "After Hours",
+    "albumId": 2,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 301,
+    "title": "Don't Start Now",
+    "artist": "Dua Lipa",
+    "playtime": 183,
+    "album": "Future Nostalgia",
+    "albumId": 3,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 302,
+    "title": "Physical",
+    "artist": "Dua Lipa",
+    "playtime": 193,
+    "album": "Future Nostalgia",
+    "albumId": 3,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 303,
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "playtime": 203,
+    "album": "Future Nostalgia",
+    "albumId": 3,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 401,
+    "title": "As It Was",
+    "artist": "Harry Styles",
+    "playtime": 167,
+    "album": "Harry's House",
+    "albumId": 4,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 402,
+    "title": "Late Night Talking",
+    "artist": "Harry Styles",
+    "playtime": 178,
+    "album": "Harry's House",
+    "albumId": 4,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 403,
+    "title": "Music For a Sushi Restaurant",
+    "artist": "Harry Styles",
+    "playtime": 192,
+    "album": "Harry's House",
+    "albumId": 4,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 501,
+    "title": "Break My Soul",
+    "artist": "Beyoncé",
+    "playtime": 278,
+    "album": "Renaissance",
+    "albumId": 5,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 502,
+    "title": "Alien Superstar",
+    "artist": "Beyoncé",
+    "playtime": 226,
+    "album": "Renaissance",
+    "albumId": 5,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 503,
+    "title": "Cuff It",
+    "artist": "Beyoncé",
+    "playtime": 225,
+    "album": "Renaissance",
+    "albumId": 5,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 601,
+    "title": "Happier Than Ever",
+    "artist": "Billie Eilish",
+    "playtime": 298,
+    "album": "Happier Than Ever",
+    "albumId": 6,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 602,
+    "title": "NDA",
+    "artist": "Billie Eilish",
+    "playtime": 195,
+    "album": "Happier Than Ever",
+    "albumId": 6,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 603,
+    "title": "Therefore I Am",
+    "artist": "Billie Eilish",
+    "playtime": 174,
+    "album": "Happier Than Ever",
+    "albumId": 6,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 701,
+    "title": "drivers license",
+    "artist": "Olivia Rodrigo",
+    "playtime": 242,
+    "album": "SOUR",
+    "albumId": 7,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 702,
+    "title": "good 4 u",
+    "artist": "Olivia Rodrigo",
+    "playtime": 178,
+    "album": "SOUR",
+    "albumId": 7,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 703,
+    "title": "deja vu",
+    "artist": "Olivia Rodrigo",
+    "playtime": 215,
+    "album": "SOUR",
+    "albumId": 7,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 801,
+    "title": "Kiss Me More",
+    "artist": "Doja Cat ft. SZA",
+    "playtime": 234,
+    "album": "Planet Her",
+    "albumId": 8,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 802,
+    "title": "Need to Know",
+    "artist": "Doja Cat",
+    "playtime": 210,
+    "album": "Planet Her",
+    "albumId": 8,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 803,
+    "title": "Woman",
+    "artist": "Doja Cat",
+    "playtime": 172,
+    "album": "Planet Her",
+    "albumId": 8,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 901,
+    "title": "FE!N",
+    "artist": "Travis Scott ft. Playboi Carti",
+    "playtime": 203,
+    "album": "UTOPIA",
+    "albumId": 9,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 902,
+    "title": "MELTDOWN",
+    "artist": "Travis Scott ft. Drake",
+    "playtime": 218,
+    "album": "UTOPIA",
+    "albumId": 9,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 903,
+    "title": "TELEKINESIS",
+    "artist": "Travis Scott ft. SZA & Future",
+    "playtime": 287,
+    "album": "UTOPIA",
+    "albumId": 9,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 1001,
+    "title": "Tití Me Preguntó",
+    "artist": "Bad Bunny",
+    "playtime": 241,
+    "album": "Un Verano Sin Ti",
+    "albumId": 10,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 1002,
+    "title": "Me Porto Bonito",
+    "artist": "Bad Bunny ft. Chencho Corleone",
+    "playtime": 178,
+    "album": "Un Verano Sin Ti",
+    "albumId": 10,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 1003,
+    "title": "Efecto",
+    "artist": "Bad Bunny",
+    "playtime": 223,
+    "album": "Un Verano Sin Ti",
+    "albumId": 10,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 2001,
+    "title": "Sunny Day",
+    "artist": "Beach Waves",
+    "playtime": 215,
+    "album": "Summer Vibes",
+    "albumId": null,
+    "playlistId": 1,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 2002,
+    "title": "Ocean Drive",
+    "artist": "Coastal Lines",
+    "playtime": 187,
+    "album": "Summer Vibes",
+    "albumId": null,
+    "playlistId": 1,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 2003,
+    "title": "Sunset Dreams",
+    "artist": "Horizon",
+    "playtime": 224,
+    "album": "Summer Vibes",
+    "albumId": null,
+    "playlistId": 1,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 2004,
+    "title": "Tropical Nights",
+    "artist": "Palm Trees",
+    "playtime": 208,
+    "album": "Summer Vibes",
+    "albumId": null,
+    "playlistId": 1,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 2005,
+    "title": "Push It",
+    "artist": "The Trainers",
+    "playtime": 178,
+    "album": "Workout Mix",
+    "albumId": null,
+    "playlistId": 2,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 2006,
+    "title": "No Pain No Gain",
+    "artist": "Iron Pumpers",
+    "playtime": 195,
+    "album": "Workout Mix",
+    "albumId": null,
+    "playlistId": 2,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 2007,
+    "title": "Run Faster",
+    "artist": "Cardio Kings",
+    "playtime": 183,
+    "album": "Workout Mix",
+    "albumId": null,
+    "playlistId": 2,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 2008,
+    "title": "Last Rep",
+    "artist": "Gym Heroes",
+    "playtime": 165,
+    "album": "Workout Mix",
+    "albumId": null,
+    "playlistId": 2,
+    "coverImg": "/placeholder.jpg"
+  },
+  {
+    "id": 2009,
+    "title": "Power Up",
+    "artist": "Energy Boost",
+    "playtime": 191,
+    "album": "Workout Mix",
+    "albumId": null,
+    "playlistId": 2,
+    "coverImg": "/placeholder.jpg"
+  }
+]

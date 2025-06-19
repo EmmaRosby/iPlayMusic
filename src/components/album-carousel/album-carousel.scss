@@ -1,0 +1,39 @@
+@use "../../scss/base/root";
+
+.slider-header{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 2rem;
+
+
+    &__headline{
+        font-size: 1.1rem;
+
+        margin-block: 1rem;
+    }
+    &__view-all{
+        border: none;
+        background: none;
+        color: root.$font-brightpink;
+        font-size: 1.1rem;
+    }
+}
+
+.album-slider{
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+.album-card{
+    height: 30vh;
+    scroll-snap-align: center;
+    img{
+        height: 100%;
+       
+        border-radius: 1rem;
+    }
+}

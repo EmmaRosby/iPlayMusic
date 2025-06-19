@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1,
+    "title": "Summer Vibes",
+    "numberOfSongs": 4,
+    "overallPlaytime": 834,
+    "coverImage": "placeholder.jpg",
+    "songs": [
+      {
+        "id": 101,
+        "songTitle": "Sunny Day",
+        "artist": "Beach Waves",
+        "playtime": 215
+      },
+      {
+        "id": 102,
+        "songTitle": "Ocean Drive",
+        "artist": "Coastal Lines",
+        "playtime": 187
+      },
+      {
+        "id": 103,
+        "songTitle": "Sunset Dreams",
+        "artist": "Horizon",
+        "playtime": 224
+      },
+      {
+        "id": 104,
+        "songTitle": "Tropical Nights",
+        "artist": "Palm Trees",
+        "playtime": 208
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Workout Mix",
+    "numberOfSongs": 5,
+    "overallPlaytime": 912,
+    "coverImage": "placeholder.jpg",
+    "songs": [
+      {
+        "id": 201,
+        "songTitle": "Push It",
+        "artist": "The Trainers",
+        "playtime": 178
+      },
+      {
+        "id": 202,
+        "songTitle": "No Pain No Gain",
+        "artist": "Iron Pumpers",
+        "playtime": 195
+      },
+      {
+        "id": 203,
+        "songTitle": "Run Faster",
+        "artist": "Cardio Kings",
+        "playtime": 183
+      },
+      {
+        "id": 204,
+        "songTitle": "Last Rep",
+        "artist": "Gym Heroes",
+        "playtime": 165
+      },
+      {
+        "id": 205,
+        "songTitle": "Power Up",
+        "artist": "Energy Boost",
+        "playtime": 191
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Chill Lounge",
+    "numberOfSongs": 3,
+    "overallPlaytime": 723,
+    "coverImage": "placeholder.jpg",
+    "songs": [
+      {
+        "id": 301,
+        "songTitle": "Ambient Dreams",
+        "artist": "Soft Echo",
+        "playtime": 267
+      },
+      {
+        "id": 302,
+        "songTitle": "Rainy Coffee",
+        "artist": "Café Moods",
+        "playtime": 241
+      },
+      {
+        "id": 303,
+        "songTitle": "Evening Calm",
+        "artist": "Twilight Sounds",
+        "playtime": 215
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Road Trip",
+    "numberOfSongs": 4,
+    "overallPlaytime": 892,
+    "coverImage": "placeholder.jpg",
+    "songs": [
+      {
+        "id": 401,
+        "songTitle": "Highway Freedom",
+        "artist": "Open Roads",
+        "playtime": 218
+      },
+      {
+        "id": 402,
+        "songTitle": "Desert Drive",
+        "artist": "Dusty Wheels",
+        "playtime": 236
+      },
+      {
+        "id": 403,
+        "songTitle": "Mountain Pass",
+        "artist": "Valley Cruisers",
+        "playtime": 225
+      },
+      {
+        "id": 404,
+        "songTitle": "City Lights",
+        "artist": "Night Riders",
+        "playtime": 213
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Study Session",
+    "numberOfSongs": 3,
+    "overallPlaytime": 853,
+    "coverImage": "placeholder.jpg",
+    "songs": [
+      {
+        "id": 501,
+        "songTitle": "Deep Focus",
+        "artist": "Mind Waves",
+        "playtime": 312
+      },
+      {
+        "id": 502,
+        "songTitle": "Concentration",
+        "artist": "Brain Power",
+        "playtime": 287
+      },
+      {
+        "id": 503,
+        "songTitle": "Thought Process",
+        "artist": "Neural Network",
+        "playtime": 254
+      }
+    ]
+  }
+]

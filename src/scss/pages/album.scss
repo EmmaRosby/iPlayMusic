@@ -1,0 +1,76 @@
+@use '../base/root';
+
+.album{
+
+
+    &__cover{
+        width: 100%;
+        height:45vh;
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: -2;
+
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 45vh;
+        z-index: -1;
+        background-image: linear-gradient(180deg, root.$shadow-hard, transparent);
+    }
+    &__details{
+        height: 37vh;
+
+        margin-inline: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 2em;
+
+        &__title{
+            font-size: 2rem;
+            color: root.$accent-white;
+            
+        }
+        &__amount{
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-top: 1rem;
+            color: root.$accent-white;
+        }
+
+        &__p{
+            font-size: 1.2rem;
+            color: root.$accent-white;
+            margin-bottom: 1rem;
+        }
+
+        &__genres{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            color: root.$accent-white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            
+            &__genre{
+                background-color: root.$accent-brightpink;
+                padding: 0.5rem 1rem;
+                border-radius: 2rem;
+            }
+        }
+    }
+}
+
+.all-songs-p{
+    margin-inline: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
