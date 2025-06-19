@@ -1,0 +1,60 @@
+@use '../base/root';
+
+.player{
+    margin-inline: 2rem;
+    &__details{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+.cover-img{
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.song-details {
+    text-align: center;
+    &__title {
+        font-size: 2rem; 
+    }
+    &__artist {
+        font-size: 1.3rem;
+
+    }
+}
+
+.duration {
+    &__progress{
+        width: 100%;
+        height: 0.5rem;
+        border-radius: 0.25rem;
+        background-color: root.$accent-brightpink;
+    }
+    &__time {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+   
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+    &__small{
+        font-size: 3rem
+    };
+    &__large{
+        font-size: 5rem;
+    }
+
+    &__gradiant{
+        fill: url(#gradient);
+    }
+}

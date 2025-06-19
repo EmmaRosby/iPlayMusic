@@ -1,4 +1,4 @@
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import HeaderNav from "../../components/header-nav/header-nav";
 import { useEffect, useState } from "react";
 import albumsData from '/json/albums.json';
@@ -59,13 +59,13 @@ function AlbumPage() {
                             <ul className="active-card__songs">
                                 {album.songs?.map((song) => (
                                     <li key={song.id} className="active-card__song">
-                                        <div className="active-card__song-main">
+                                        <Link to={`/song/${song.id}`} className="active-card__song-main">
                                             <FaCirclePlay className="active-card__play" />
                                             <div className="active-card__details">
                                                 <p className="active-card__details__title">{song.songTitle}</p>
                                                 <p className="active-card__details__artist">{song.artist}</p>
                                             </div>
-                                        </div>
+                                        </Link>
                                         <p className="active-card__song-time">{formatPlaytime(song.playtime)}</p>
                                     </li>
                                 ))}
